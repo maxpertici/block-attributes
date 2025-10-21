@@ -1,0 +1,12 @@
+{
+    "name": "mxp/block-attributes",
+    "require-dev": {
+      "symfony/var-dumper": "^7.1"
+    },
+    "autoload": {
+      "files": [],
+      "psr-4": {
+        "MXP\\BlockAttributes\\": "app/"
+      }
+    }
+  }

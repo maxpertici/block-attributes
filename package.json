@@ -1,0 +1,39 @@
+{
+  "name": "block-attributes",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "make:zip": "wp-scripts plugin-zip",
+    "watch": "wp-scripts start sources/block-attributes.js --output-path=dist --webpack-devtool=eval-source-map --mode=production --webpack-src-dir=sources --webpack-copy-php --config ./webpack.config.js",
+    "build": "wp-scripts build sources/block-attributes.js --output-path=dist --webpack-devtool=eval-source-map --mode=production --webpack-src-dir=sources --webpack-copy-php --stats=minimal --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/block-editor": "^14.17.0",
+    "@wordpress/components": "^29.8.0",
+    "@wordpress/hooks": "^4.22.0",
+    "@wordpress/i18n": "^5.22.0",
+    "@wordpress/scripts": "^26.15.0",
+    "classnames": "^2.5.1",
+    "consola": "^3.3.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5"
+  },
+  "files": [
+    "dist",
+    "app",
+    "vendor",
+    "languages",
+    "package.json",
+    "package-lock.json",
+    "composer.json",
+    "composer.lock",
+    "webpack.config.js",
+    "blueprint.json",
+    "block-attributes.php",
+    "readme.txt",
+    "README.md"
+  ]
+}
