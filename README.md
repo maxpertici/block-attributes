@@ -16,7 +16,7 @@ Block Attributes is a WordPress plugin that extends the Gutenberg editor by allo
 
 - **Intuitive User Interface**: Integrated inspector panel in the Gutenberg editor
 - **Security**: Attribute validation according to global HTML standards
-- **data-* Attributes Support**: Full support for custom data attributes
+- **`data-*` Attributes Support**: Full support for custom data attributes
 - **Accessibility**: ARIA attributes support
 - **Flexibility**: Works with all Gutenberg block types
 
