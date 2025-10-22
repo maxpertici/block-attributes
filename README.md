@@ -38,19 +38,3 @@ The plugin validates all attributes according to WordPress global HTML standards
 - `data-*` attributes with format validation
 - Filtering and escaping of all values
 
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
-
-
----
-
-## Online Testing
-
-You can test the plugin directly in your browser using WordPress Playground by clicking the badge at the top of this README.
